@@ -1,0 +1,34 @@
+object frmVendas: TfrmVendas
+  Left = 0
+  Top = 0
+  Caption = 'An'#225'lise de Vendas'
+  ClientHeight = 341
+  ClientWidth = 470
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object mmVendas: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    ReadOnly = True
+    TextSettings.WordWrap = True
+    Align = Client
+    Margins.Left = 10.000000000000000000
+    Margins.Top = 20.000000000000000000
+    Margins.Right = 10.000000000000000000
+    Margins.Bottom = 10.000000000000000000
+    Size.Width = 450.000000000000000000
+    Size.Height = 311.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 446.000000000000000000
+    Viewport.Height = 307.000000000000000000
+  end
+  object lblVendas: TLabel
+    Position.X = 8.000000000000000000
+    Text = 'Vendas por Regi'#227'o'
+    TabOrder = 1
+  end
+end
